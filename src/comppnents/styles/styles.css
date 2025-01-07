@@ -1,0 +1,43 @@
+/* styles.css */
+.counterApp {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  background-color: #007BFF;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.button:disabled {
+  background-color: #c0c0c0;
+  cursor: not-allowed;
+}
+
+.container {
+  text-align: center;
+  margin-top: 50px;
+  font-family: Arial, sans-serif;
+}
+
+.resultContainer {
+  background-color: #f0f8ff;
+  padding: 20px;
+  border-radius: 8px;
+  display: inline-block;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.loadingContainer {
+  background-color: #fff3cd;
+  padding: 20px;
+  border-radius: 8px;
+  display: inline-block;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
